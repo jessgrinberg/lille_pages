@@ -53,6 +53,43 @@ body {
 }
 
 
+/*HEADER SPLIT SCREEN*/
+
+/* Row with equal height columns
+* --------------------------------------------------
+*/
+.row-eq-height {
+ display: -webkit-box;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display:         flex;
+}
+
+.header-img {
+  background-image: url(../assets/VISU_Annuaire_associatif.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+}
+
+.header-cta {
+  background-color: #1D1D1D;
+  color: #FFF;
+  padding: 3rem 5rem;
+}
+
+.header-cta h1, .header-cta p  {
+  margin-bottom: 2rem;
+}
+
+.btn.cta {
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  padding: .75rem 1.5rem;
+  background-color: #E1001A;
+}
 
 /*MEDIA QUERIES*/
 
