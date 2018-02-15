@@ -380,6 +380,12 @@ footer div:first-child {
   }
 }
 
+@media (min-width:414px) and (max-width:768px) {
+  .section-solution h4 {
+    font-size: 1.25rem;
+  }
+}
+
 @media (max-width:769px) {
   .section-thematiques .row-eq-height {
     display: block;
