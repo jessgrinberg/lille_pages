@@ -389,7 +389,6 @@ footer div:first-child {
 @media (max-width:767px) {
   .section-thematiques .row-eq-height {
     display: block;
-    margin: .5rem 0;
   }
 }
 
