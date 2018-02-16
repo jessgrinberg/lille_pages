@@ -296,13 +296,16 @@ select.form-control {
   -moz-appearance: none;
 }
 
-.btn.submit {
+.btn-danger, .btn-dark {
   border-radius: 1.25rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   padding: .5rem 1rem;
-  background-color: #E1001A;
   font-size: 14px;
+}
+
+.btn .submit {
+  background-color: #E1001A;
 }
 
 /*SECTION CARTE*/
