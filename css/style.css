@@ -43,6 +43,18 @@ body {
   box-shadow: 0 0 0 0 rgba(52,58,64,.5);
 }
 
+.navbar .btn-outline-dark {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.5);
+}
+
+.navbar .btn-outline-dark:hover,
+.navbar .btn-outline-dark:focus {
+  background-color: #FFF;
+  border-color: #FFF;
+  color: rgba(0,0,0,.5);
+}
+
 /*MOBILE NAVBAR*/
 
 .custom-toggler.navbar-toggler {
@@ -74,7 +86,7 @@ body {
 }
 
 .header-cta {
-  background-color: #1D1D1D;
+  background-color: #343a40;
   color: #FFF;
   padding: 3rem 5rem;
 }
