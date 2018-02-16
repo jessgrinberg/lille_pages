@@ -1,6 +1,5 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 }
 
 /*NAVBAR*/
@@ -40,7 +39,8 @@ body {
 
 .btn-outline-dark.focus, .btn-outline-dark:focus,
 .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0 rgba(52,58,64,.5);
+  -webkit-box-shadow: 0 0 0 0 rgba(52,58,64,.5);
+          box-shadow: 0 0 0 0 rgba(52,58,64,.5);
 }
 
 .navbar .btn-outline-dark {
@@ -283,12 +283,17 @@ section h2 {
 }
 
 .section-filtre form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .form-control:focus {
-  box-shadow: 0 0 0 0;
+  -webkit-box-shadow: 0 0 0 0;
+           box-shadow: 0 0 0 0;
 }
 
 select.form-control {
@@ -319,9 +324,13 @@ select.form-control {
 }
 
 .section-carte .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -ms-align-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
   padding: .25rem;
 }
 
@@ -340,8 +349,12 @@ select.form-control {
 
 /*PAGINATION*/
 .pagination-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pagination-box .pagination {
@@ -426,8 +439,13 @@ footer div:first-child {
 /*MEDIA QUERIES*/
 @media (max-width: 414px) {
   .section-filtre form {
-    flex-direction: column;
-    align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
 }
 
