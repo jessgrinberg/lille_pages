@@ -113,7 +113,7 @@ body {
 
 /*SECTION*/
 
-section:not(.section-carte) {
+section:not(.section-carte):not(.section-temoignage) {
   padding: 60px 0;
 }
 
@@ -378,6 +378,36 @@ select.form-control {
   background-color: #ff3547;
     border-color: #ff3547;
 }
+
+
+/*SECTION TEMOIGNAGE*/
+
+.section-temoignage {
+  background-image: linear-gradient(0deg,rgba(255, 53, 71,0.3),rgba(255, 53, 71,0.3)), url('../assets/VISU_Temoignage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+}
+
+.section-temoignage blockquote{
+    border-left:none;
+    color: #FFF;
+}
+
+.section-temoignage .quotation-mark{
+    font-weight: bold;
+    font-size:6rem;
+}
+
+.section-temoignage .quote-text{
+  margin-top: -65px;
+}
+
+.section-temoignage .blog-post-bottom:before {
+  content: "\2014 \00A0";
+}
+
 /*FOOTER*/
 
 footer {
