@@ -311,6 +311,10 @@ select.form-control {
   background-color: #F7F7F7;
 }
 
+.section-carte i.fa {
+  color: #ff3547;
+}
+
 .section-carte .card-body {
   display: flex;
   -ms-align-items: center;
