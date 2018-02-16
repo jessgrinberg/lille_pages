@@ -322,6 +322,10 @@ select.form-control {
   padding: .25rem;
 }
 
+.section-carte .card-footer {
+  font-size: 13px;
+}
+
 .map {
   background-image: url('../assets/map.png');
   background-size: cover;
@@ -330,6 +334,25 @@ select.form-control {
   min-height: 500px;
 }
 
+
+/*PAGINATION*/
+.pagination-box {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-box .pagination {
+  margin-top: 1rem;
+}
+
+.pagination-box .page-link {
+  color: #ff3547;
+}
+
+.pagination-box .page-item.active .page-link {
+  background-color: #ff3547;
+    border-color: #ff3547;
+}
 /*FOOTER*/
 
 footer {
