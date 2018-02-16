@@ -77,8 +77,15 @@ body {
  display:         flex;
 }
 
-.header-img {
+#annuaire .header-img {
   background-image: url(../assets/VISU_Annuaire_associatif.jpg);
+}
+
+#benevolat .header-img {
+  background-image: url(../assets/VISU_Espace-benevolat.jpg);
+}
+
+.header-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -120,13 +127,15 @@ section h2 {
 
 .section-solution h2,
 .section-thematiques h2,
-.section-filtre h2 {
+.section-filtre h2,
+.section-mission h2 {
   margin-bottom: 30px;
 }
 
 .section-solution h2:after,
 .section-thematiques h2:after,
-.section-filtre h2:after {
+.section-filtre h2:after,
+.section-mission h2:after {
   display: block;
   height: 2px;
   background-color: #ff3547;
