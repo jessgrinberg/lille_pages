@@ -193,7 +193,7 @@
         <p class="long-copy lead">Découvrez les acteurs qui s'engagent près de chez vous</p>
 
         <form class="form-inline m-3">
-          <div class="form-group mx-sm-2 mb-2">
+          <!-- <div class="form-group mx-sm-2 mb-2">
            <select class="form-control custom-select" id="exampleFormControlSelect1">
              <option disabled selected value>A / Z</option>
              <option>A</option>
@@ -223,14 +223,23 @@
              <option>Y</option>
              <option>Z</option>
            </select>
+         </div> -->
+         <div class="form-group mx-sm-1 mb-2">
+             <div class="icon-addon addon-md">
+                 <input type="text" placeholder="Où aider?" class="form-control" id="ou-aider">
+                 <label for="ou-aider" class="fa fa-map-marker" title="ou-aider"></label>
+             </div>
          </div>
-          <div class="form-group mx-sm-2 mb-2">
+          <!-- <div class="form-group mx-sm-2 mb-2">
               <div class="icon-addon addon-md">
                   <input type="text" placeholder="Localisation" class="form-control" id="localisation">
                   <label for="localisation" class="fa fa-location-arrow" title="localisation"></label>
               </div>
-          </div>
-          <div class="form-group mx-sm-2 mb-2">
+          </div> -->
+          <div class="form-group mx-sm-1 mb-2">
+            <input class="form-control" type="date" value="" id="example-date-input">
+        </div>
+          <div class="form-group mx-sm-1 mb-2">
            <select class="form-control custom-select" id="thematiqueFormControlSelect">
              <option disabled selected value>Thématique solidaire</option>
              <option>Lien Social</option>
@@ -247,7 +256,7 @@
              <option>Autres &amp; Inclassables</option>
            </select>
          </div>
-          <div class="form-group mx-sm-2 mb-2">
+          <div class="form-group mx-sm-1 mb-2">
               <div class="icon-addon addon-md">
                   <input type="text" placeholder="Mot clé" class="form-control" id="mot-cle">
                   <label for="mot-cle" class="fa fa-search" title="mot-cle"></label>
