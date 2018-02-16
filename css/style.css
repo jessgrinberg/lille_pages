@@ -386,7 +386,7 @@ footer div:first-child {
   }
 }
 
-@media (max-width:767px) {
+@media (max-width:575px) {
   .section-thematiques .row-eq-height {
     display: block;
   }
