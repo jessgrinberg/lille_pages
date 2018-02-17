@@ -86,6 +86,10 @@ body {
   background-image: url(../assets/VISU_Espace-benevolat.jpg);
 }
 
+#partage .header-img {
+  background-image: url(../assets/VISU_Coin-partage.jpg);
+}
+
 .header-img {
   background-size: cover;
   background-repeat: no-repeat;
