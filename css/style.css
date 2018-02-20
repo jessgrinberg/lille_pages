@@ -193,6 +193,7 @@ section h2 {
 .thematique {
   background-color: #FFF;
   padding: 1rem;
+  border-radius: 4px;
 }
 
 .thematique img {
