@@ -352,6 +352,7 @@ select.form-control {
 .section-carte .card-footer {
   font-size: 13px;
   background-color: rgba(0,0,0,.15);
+  border-top: 1px solid orange;
 }
 
 .map {
