@@ -298,12 +298,19 @@ section h2 {
 }
 
 .section-filtre form {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.section-filtre .form-control,
+.section-filtre .form-group .icon-addon,
+.section-filtre .form-group input {
+  width: 100%;
 }
 
 .form-control:focus {
@@ -485,7 +492,7 @@ footer div:first-child {
 
 /*MEDIA QUERIES*/
 @media (max-width: 414px) {
-  .section-filtre form {
+  /*.section-filtre form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -493,7 +500,7 @@ footer div:first-child {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-  }
+  }*/
 }
 
 @media (min-width:414px) and (max-width:768px) {
@@ -507,6 +514,14 @@ footer div:first-child {
     display: block;
   }
 }
+
+@media (max-width:768px) {
+  .submit {
+    width: 100%
+  }
+}
+
+
 
 @media (min-width:992px) {
 
