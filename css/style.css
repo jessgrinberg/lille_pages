@@ -309,8 +309,14 @@ section h2 {
 
 .section-filtre .form-control,
 .section-filtre .form-group .icon-addon,
-.section-filtre .form-group input {
+.section-filtre .form-group input,
+.section-filtre .submit button {
   width: 100%;
+}
+
+.section-filtre .form-group,
+.section-filtre .submit{
+  padding: 0 5px;
 }
 
 .form-control:focus {
