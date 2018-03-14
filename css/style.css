@@ -92,7 +92,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 500px;
 }
 
 .header-cta {
@@ -498,20 +497,17 @@ footer div:first-child {
 
 /*MEDIA QUERIES*/
 @media (max-width: 414px) {
-  /*.section-filtre form {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-  }*/
+  .header-img {
+    min-height: 200px;
+  }
 }
 
 @media (min-width:414px) and (max-width:768px) {
   .section-solution h4 {
     font-size: 1.25rem;
+  }
+  .header-img {
+    min-height: 300px;
   }
 }
 
@@ -544,6 +540,10 @@ footer div:first-child {
   .navbar .dropdown-menu {
     right: 0;
     left: auto;
+  }
+
+  .header-img {
+    min-height: 500px;
   }
 
 }
