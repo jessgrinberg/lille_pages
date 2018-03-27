@@ -521,6 +521,10 @@ footer div:first-child {
   .submit {
     width: 100%
   }
+
+  .header-cta {
+    padding: 2rem;
+  }
 }
 
 
