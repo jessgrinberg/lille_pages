@@ -2,6 +2,53 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* SELECTION AVEC IMAGES*/
+
+.dropdown-img {
+  border: 1px solid #E1001A;
+  border-radius: 1.25rem;
+}
+
+.dropdown-img button {
+  border-radius: 1.25rem;
+  outline: none;
+  color: #495057;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-toggle::after {
+  float: right;
+  margin-top: 10px;
+}
+
+.dropdown-img .btn.focus, .dropdown-img .btn:focus {
+  box-shadow: 0 0 0 0rem rgba(0,0,0,0)
+}
+
+.dropdown-img img {
+  margin-right: 5px;
+  margin-left: 10px;
+  width: 15px;
+}
+
+.dropdown-img a {
+  text-decoration: none;
+  color: #495057;
+}
+
+.dropdown-img a:hover {
+  color: rgba(73,80,87,.7);
+}
+
+.dropdown-menu.show {
+  min-width: 300px;
+}
+
+/*FIN SELECTION AVEC IMAGES*/
+
+
 /*NAVBAR*/
 
 .navbar-brand img {
